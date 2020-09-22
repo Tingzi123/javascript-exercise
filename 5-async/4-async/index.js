@@ -7,5 +7,5 @@ async function fetchData(url) {
   console.log(data);
 }
 
-const URL = 'http://localhost:8080/user/users';
+const URL = 'http://localhost:3000/api';
 fetchData(URL);

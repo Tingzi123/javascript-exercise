@@ -18,7 +18,7 @@ function fetchData(url) {
   // end -->
 }
 
-const URL = 'http://localhost:8080/user/users';
+const URL = 'http://localhost:3000/api';
 fetchData(URL)
   .then(result => {
     document.writeln(result.name);

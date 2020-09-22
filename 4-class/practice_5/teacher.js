@@ -3,9 +3,7 @@ import Person from './person';
 
 export default class Teacher extends Person {
   constructor(name, age, klass) {
-    super();
-    this.name = name;
-    this.age = age;
+    super(name, age);
     this.klass = klass;
   }
 
